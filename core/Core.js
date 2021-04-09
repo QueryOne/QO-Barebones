@@ -1,7 +1,7 @@
 /* Core Module */
 Core = typeof Core != 'undefined' ? Core : {}
 
-Core._address    = Core._address    || 'www.genesismud.org/websocket' // 'achaea.com/socket/'
+Core._address    = Core._address    || 'achaea.com/socket/' // 'www.genesismud.org/websocket'
 Core._protocol   = Core._protocol   || false // 'binary'
 Core._binaryType = Core._binaryType || 'arraybuffer'
 Core._scrollback = Core._scrollback || false
